@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
         .nargs(0);
     program.add_argument("-u", "--uninstall")
         .default_value(false)
-        .help("Uninstall YAMA EventLog manifest. (only do uninstall operaiton)")
+        .help("Uninstall YAMA EventLog manifest. (only do uninstall operation)")
         .nargs(0);
     program.add_argument("-s", "--suppress").default_value(false).help("Suppress warning logs").nargs(0);
     program.add_argument("-q", "--quiet").default_value(false).help("Suppress all console outputs").nargs(0);
